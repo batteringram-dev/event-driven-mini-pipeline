@@ -16,7 +16,7 @@ This project is about a data pipeline built using Spark and Delta lake, tables. 
 
 #### Data Processing
 * Load data from delta tables and merge them using delta lake's functionality based on matching keys.
-* Depending on the condition, it appends new data to the existing data. More like Change Data Capture (CDC)
+* Depending on the condition, it appends new data to the existing data. Akin to Change Data Capture (CDC) that is appending new data to existing data.
 
 #### Event Driven Workflow
 * Set up workflows in Databricks that are triggered based on a specific event - when new file arrives in GCS bucket
